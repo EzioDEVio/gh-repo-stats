@@ -17,3 +17,37 @@ To install `gh-repo-stats`, you need to have the GitHub CLI installed on your ma
 
 ```shell
 gh extension install theslash84/gh-repo-stats
+```
+
+---
+
+## Usage
+After installation, you can fetch repository statistics by executin
+```
+gh repo-stats -owner <owner> -repo <repository name>
+```
+For example, to fetch statistics for the gh-repo-stats repository itself:
+```
+gh repo-stats -owner theslash84 -repo gh-repo-stats
+
+```
+This command will display the number of stars, forks, and open issues for the specified repository.
+
+Contributing
+As the project's sole developer, I welcome contributions that can enhance gh-repo-stats. Whether it's feature suggestions, bug reports, or code contributions, feel free to share your input. Please submit your contributions through issues and pull requests.
+
+License
+gh-repo-stats is distributed under the MIT License. See the LICENSE file for more details.
+
+Sharing with GitHub Extension Library
+To share gh-repo-stats with the GitHub extension library and make it discoverable for other users, you can add the gh-extension topic to your repository:
+
+Navigate to your repository on GitHub.
+Click on the "About" section on the right-hand side.
+Add gh-extension to the "Topics" field.
+By adding this topic, your extension becomes part of the broader collection of GitHub CLI extensions, making it discoverable for users interested in extending their CLI capabilities.
+
+
+Replace `Mohammed Aldaraji` with your actual name and `(https://github.com/theslash84)` with the URL to your GitHub profile. This README provides a comprehensive overview, making it clear that you are the developer and providing users with all the necessary details to understand, install, and use your extension.
+
+
