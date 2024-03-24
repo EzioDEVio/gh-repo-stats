@@ -14,6 +14,9 @@ type RepoStats struct {
 	StargazersCount int    `json:"stargazers_count"`
 	ForksCount      int    `json:"forks_count"`
 	OpenIssuesCount int    `json:"open_issues_count"`
+	WatchersCount   int    `json:"watchers_count"`
+	DefaultBranch   string `json:"default_branch"`
+	Archived        bool   `json:"archived"`
 }
 
 func main() {
@@ -59,6 +62,6 @@ func main() {
 		return
 	}
 
-	fmt.Printf("Repository: %s\nStars: %d\nForks: %d\nOpen Issues: %d\n",
-		stats.FullName, stats.StargazersCount, stats.ForksCount, stats.OpenIssuesCount)
+	fmt.Printf("Repository: %s\nStars: %d\nForks: %d\nOpen Issues: %d\nWatchers: %d\nDefault Branch: %s\nArchived: %t\n",
+		stats.FullName, stats.StargazersCount, stats.ForksCount, stats.OpenIssuesCount, stats.WatchersCount, stats.DefaultBranch, stats.Archived)
 }
