@@ -25,14 +25,12 @@ func main() {
 	var args []string
 	var owner, repo string
 
-	// If all arguments are passed as a single string, split them manually.
 	if len(os.Args) == 2 {
 		args = strings.Split(os.Args[1], " ")
 	} else {
 		args = os.Args[1:] // Skip the program name
 	}
 
-	// Parse -owner and -repo arguments
 	for i, arg := range args {
 		if arg == "-owner" && i+1 < len(args) {
 			owner = args[i+1]
@@ -46,9 +44,6 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("Debug: Owner: %s, Repo: %s\n", owner, repo)
-
-	// Construct the GitHub CLI command
 	ghArgs := []string{"api", fmt.Sprintf("repos/%s/%s", owner, repo)}
 	stdOut, _, err := gh.Exec(ghArgs...)
 	if err != nil {
@@ -62,6 +57,6 @@ func main() {
 		return
 	}
 
-	fmt.Printf("Repository: %s\nStars: %d\nForks: %d\nOpen Issues: %d\nWatchers: %d\nDefault Branch: %s\nArchived: %t\n",
+	fmt.Printf("Repository: %s\n🌟 Stars: %d\n🍴 Forks: %d\n🔓 Open Issues: %d\n👀 Watchers: %d\n🔖 Default Branch: %s\n📦 Archived: %t\n",
 		stats.FullName, stats.StargazersCount, stats.ForksCount, stats.OpenIssuesCount, stats.WatchersCount, stats.DefaultBranch, stats.Archived)
 }
