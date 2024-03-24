@@ -15,6 +15,20 @@ As the sole architect behind `gh-repo-stats`, my mission was to bridge the gap b
 - **Seamless Integration**: As a native GitHub CLI extension, `gh-repo-stats` feels right at home within your command line environment, offering a coherent and intuitive user experience.
 - **Community-Centric**: Embracing the open-source ethos, `gh-repo-stats` is a testament to collaborative innovation. Your contributions can help steer this project to new heights!
 
+## Features
+
+- Fetch and display the following repository statistics:
+  - Star count
+  - Fork count
+  - Open issues count
+  - Watcher count
+  - Default branch name
+  - Archive status
+  
+These stats provide a comprehensive overview of a repository's engagement and status, directly from your command line.
+
+
+
 ## 🛠 Installation
 
 Before the magic happens, make sure you have the GitHub CLI on your machine. If not, embark on a quick setup journey with the [official installation guide](https://cli.github.com/manual/installation).
@@ -38,6 +52,15 @@ Fetch stats for gh-repo-stats itself:
 gh repo-stats -owner theslash84 -repo gh-repo-stats
 ```
 Behold! The stars, forks, and open issues count unfold before your eyes.
+
+This command displays:
+
+- The number of stars
+- The number of forks
+- The number of open issues
+- The watcher count
+- The default branch name
+- The archive status of the repositor
 
 🤝 Contributing
 Join me, Mohammed, on this voyage to refine and augment gh-repo-stats. Suggestions, bug reports, or code enhancements - all are welcomed with open arms. Feel the collaborative spirit? Dive in with issues and pull requests.
