@@ -48,6 +48,5 @@ Add gh-extension to the "Topics" field.
 By adding this topic, your extension becomes part of the broader collection of GitHub CLI extensions, making it discoverable for users interested in extending their CLI capabilities.
 
 
-Replace `Mohammed Aldaraji` with your actual name and `(https://github.com/theslash84)` with the URL to your GitHub profile. This README provides a comprehensive overview, making it clear that you are the developer and providing users with all the necessary details to understand, install, and use your extension.
 
 
