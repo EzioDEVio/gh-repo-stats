@@ -2,7 +2,7 @@
 
 ## Overview
 
-`gh-repo-stats` is a GitHub CLI extension designed and developed by Mohammed Aldaraji: ([Your GitHub Profile Link](https://github.com/theslash84)) to streamline the process of fetching and displaying statistics for any GitHub repository. As the sole developer of this extension, I aimed to create a tool that enhances the GitHub CLI's functionality, making it easier for users to get quick insights into repository metrics.
+`gh-repo-stats` is a GitHub CLI extension designed and developed by Mohammed Aldaraji: (https://github.com/theslash84) to streamline the process of fetching and displaying statistics for any GitHub repository. As the sole developer of this extension, I aimed to create a tool that enhances the GitHub CLI's functionality, making it easier for users to get quick insights into repository metrics.
 
 ## Key Features and Benefits
 
