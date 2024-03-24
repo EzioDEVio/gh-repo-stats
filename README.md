@@ -17,15 +17,16 @@ As the sole architect behind `gh-repo-stats`, my mission was to bridge the gap b
 
 ## Features
 
-- Fetch and display the following repository statistics:
-  - Star count
-  - Fork count
-  - Open issues count
-  - Watcher count
-  - Default branch name
-  - Archive status
-  
-These stats provide a comprehensive overview of a repository's engagement and status, directly from your command line.
+- Fetch and display enriched repository statistics with emojis for better readability and engagement.
+  - 🌟 Star count
+  - 🍴 Fork count
+  - 🔓 Open issues count
+  - 👀 Watcher count
+  - 🔖 Default branch name
+  - 📦 Archive status
+
+These enhancements make the output more user-friendly and visually engaging, providing a quick and enjoyable overview of repository statistics.
+.
 
 
 
