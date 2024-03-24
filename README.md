@@ -2,7 +2,7 @@
 
 ## 🚀 Overview
 
-Welcome to `gh-repo-stats`, a crafted GitHub CLI extension designed with ❤️ by [Mohammed Aldaraji](https://github.com/theslash84). This tool is your CLI companion that provides a quick glance at the vitals of any GitHub repository. Leveraging the power of `gh-repo-stats`, you're just a command away from uncovering insights that matter.
+Welcome to `gh-repo-stats`, a crafted GitHub CLI extension designed by [Mohammed Aldaraji](https://github.com/theslash84). This tool is your CLI companion that provides a quick glance at the vitals of any GitHub repository. Leveraging the power of `gh-repo-stats`, you're just a command away from uncovering insights that matter.
 
 ### 🎯 Purpose
 
