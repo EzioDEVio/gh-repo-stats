@@ -2,79 +2,76 @@
 
 ## 🚀 Overview
 
-Welcome to `gh-repo-stats`, a crafted GitHub CLI extension designed by [Mohammed Aldaraji](https://github.com/theslash84). This tool is your CLI companion that provides a quick glance at the vitals of any GitHub repository. Leveraging the power of `gh-repo-stats`, you're just a command away from uncovering insights that matter.
+Welcome to `gh-repo-stats`, a refined GitHub CLI extension meticulously designed by [Mohammed Aldaraji](https://github.com/theslash84). This extension serves as a powerful tool in your CLI arsenal, offering instant access to essential statistics of any GitHub repository. With `gh-repo-stats`, key insights are merely a command away, providing you with a comprehensive overview of a repository's dynamics.
 
 ### 🎯 Purpose
 
-As the sole architect behind `gh-repo-stats`, my mission was to bridge the gap between data accessibility and the developers. By integrating this tool into your workflow, you're equipped to make data-driven decisions, benchmark your repositories, and stay informed on your project's traction - all from the comfort of your terminal.
+Developed with a vision to streamline access to GitHub repository statistics, `gh-repo-stats` empowers developers, project managers, and open-source enthusiasts to retrieve crucial data swiftly and efficiently. Whether you're evaluating a project's engagement or monitoring its growth, `gh-repo-stats` provides the metrics you need directly in your command line.
 
 ## ✨ Key Features and Benefits
 
-- **Instant Metrics Access**: Dive deep into repository statistics with just a command. Fetch star count, fork count, and the number of open issues instantly.
-- **Boost Your Workflow**: Time is precious. `gh-repo-stats` respects that by eliminating the tedious process of manual data retrieval. More time coding, less time browsing.
-- **Seamless Integration**: As a native GitHub CLI extension, `gh-repo-stats` feels right at home within your command line environment, offering a coherent and intuitive user experience.
-- **Community-Centric**: Embracing the open-source ethos, `gh-repo-stats` is a testament to collaborative innovation. Your contributions can help steer this project to new heights!
+- **Comprehensive Metrics**: Gain insights into a repository's star count, fork count, open issues, watchers, and more.
+- **Enhanced Readability**: With emojis and symbols, the output is not only informative but also visually appealing.
+- **Streamlined Workflow**: `gh-repo-stats` optimizes your workflow by providing quick access to repository statistics, freeing up more time for development.
+- **Open Source Collaboration**: As an open-source tool, `gh-repo-stats` welcomes contributions and enhancements from the community, fostering a collaborative environment for improvement.
 
-## Features
+## 🌟 Enhanced Repository Statistics
 
-- Fetch and display the following repository statistics:
-  - Star count
-  - Fork count
-  - Open issues count
-  - Watcher count
-  - Default branch name
-  - Archive status
-  
-These stats provide a comprehensive overview of a repository's engagement and status, directly from your command line.
+With `gh-repo-stats`, you can fetch a detailed set of repository statistics adorned with intuitive emojis and symbols, enhancing the interpretability and engagement of the output:
 
-
+  - 🌟 **Stars**: The number of stars the repository has received.
+  - 🍴 **Forks**: The count of forks indicating the repository's reach and collaboration.
+  - 🔓 **Open Issues**: The number of unresolved issues, reflecting the repository's activity and community engagement.
+  - 👀 **Watchers**: The watcher count, indicating the level of interest in the repository.
+  - 🔖 **Default Branch**: The name of the repository's default branch.
+  - 📦 **Archived Status**: Indicates whether the repository is archived.
+  - 👥 **Contributors**: The total number of contributors to the repository.
+  - 📌 **Total Commits**: The total number of commits, reflecting the repository's development activity.
 
 ## 🛠 Installation
 
-Before the magic happens, make sure you have the GitHub CLI on your machine. If not, embark on a quick setup journey with the [official installation guide](https://cli.github.com/manual/installation).
+Ensure you have the GitHub CLI installed on your system. If it's not yet installed, refer to the [official installation guide](https://cli.github.com/manual/installation).
 
-Once set, bring `gh-repo-stats` to life using:
+Install `gh-repo-stats` using the following command:
 
 ```shell
 gh extension install theslash84/gh-repo-stats
 ```
-Embrace the power of insights with this simple command!
----
-🔍 Usage
-Harness the potential of gh-repo-stats with:
+
+Experience the enhanced insights provided by `gh-repo-stats` with this simple installation!
+
+## 🔍 Usage
+
+To fetch repository statistics, execute:
+
 ```
 gh repo-stats -owner <owner> -repo <repository name>
 ```
-🌟 Showcase Example:
 
-Fetch stats for gh-repo-stats itself:
+**Example**: To retrieve stats for the `gh-repo-stats` repository:
+
 ```
 gh repo-stats -owner theslash84 -repo gh-repo-stats
 ```
-Behold! The stars, forks, and open issues count unfold before your eyes.
 
-This command displays:
+The command outputs a set of statistics, making repository analysis straightforward and efficient.
 
-- The number of stars
-- The number of forks
-- The number of open issues
-- The watcher count
-- The default branch name
-- The archive status of the repositor
+## 🤝 Contributing
 
-🤝 Contributing
-Join me, Mohammed, on this voyage to refine and augment gh-repo-stats. Suggestions, bug reports, or code enhancements - all are welcomed with open arms. Feel the collaborative spirit? Dive in with issues and pull requests.
+Your contributions are invaluable to the continuous evolution of `gh-repo-stats`. If you have ideas, bug reports, or enhancements, please share them through issues and pull requests. Together, we can make `gh-repo-stats` even more robust and feature-rich.
 
-📜 License
-gh-repo-stats proudly stands under the MIT License. Delve into the LICENSE for the legalese.
+## 📜 License
 
-🌐 Sharing with GitHub Extension Library
-Let's spread the word! To elevate gh-repo-stats within the GitHub extension ecosystem:
+`gh-repo-stats` is released under the MIT License. For more details, please refer to the LICENSE file.
 
-Steer to your repository on GitHub.
-Engage the "About" section on your repository's right-hand flank.
-Infuse gh-extension into the "Topics" crucible.
-Voilà! Your extension now shines amongst its peers, inviting CLI aficionados to explore and integrate.
+## 🌐 Sharing with GitHub Extension Library
 
-Thank you for embracing gh-repo-stats. Happy analyzing!
+Enhance the visibility of `gh-repo-stats` by sharing it with the GitHub extension library:
 
+1. Visit your repository on GitHub.
+2. Click on the "About" section to the right.
+3. Add `gh-extension` to the "Topics" field.
+
+By incorporating this topic, `gh-repo-stats` becomes part of a broader collection of GitHub CLI extensions, increasing its discoverability and utility for the community.
+
+Thank you for exploring `gh-repo-stats`. Here's to many insightful analyses!
