@@ -1,4 +1,4 @@
-# gh-repo-stats   [![Trivy Vulnerability Scan](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml) [![License](https://img.shields.io/github/license/theslash84/gh-repo-stats)](LICENSE)
+# gh-repo-stats   [![Trivy Vulnerability Scan](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml) [![License](https://img.shields.io/github/license/theslash84/gh-repo-stats)](LICENSE) 
 
 
 
