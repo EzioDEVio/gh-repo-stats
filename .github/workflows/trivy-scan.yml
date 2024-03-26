@@ -20,7 +20,7 @@ jobs:
     - name: Set up Go
       uses: actions/setup-go@v2
       with:
-        go-version: '^1.17' # Specify the Go version to match your project requirements
+        go-version: '^1.17'  # Specify the Go version to match your project requirements
 
     - name: Install Trivy
       run: |
@@ -30,11 +30,5 @@ jobs:
         sudo apt-get update
         sudo apt-get install trivy -y
 
-    - name: Run Trivy filesystem scan
-      run: trivy fs --exit-code 1 --no-progress --severity HIGH,CRITICAL .
-
-
-
-
-    - name: Run Trivy vulnerability scan on go.mod
-      run: trivy fs --exit-code 1 --no-progress --severity HIGH,CRITICAL --file go.mod
+    - name: Run Trivy filesystem scan on go.mod
+      run: trivy fs --exit-code 1 --no-progress --severity HIGH,CRITICAL ./go.mod
