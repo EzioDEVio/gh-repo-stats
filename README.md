@@ -1,22 +1,9 @@
-# gh-repo-stats   [![Trivy Vulnerability Scan](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Last commit](https://img.shields.io/github/last-commit/theslash84/gh-repo-stats) ![Issues](https://img.shields.io/github/issues/theslash84/gh-repo-stats) ![Pull Requests](https://img.shields.io/github/issues-pr/theslash84/gh-repo-stats) ![Contributors](https://img.shields.io/github/contributors/theslash84/gh-repo-stats) ![Stars](https://img.shields.io/github/stars/theslash84/gh-repo-stats) ![Forks](https://img.shields.io/github/forks/theslash84/gh-repo-stats) ![Watchers](https://img.shields.io/github/watchers/theslash84/gh-repo-stats)  
+[![Trivy Vulnerability Scan](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Last commit](https://img.shields.io/github/last-commit/theslash84/gh-repo-stats) ![Issues](https://img.shields.io/github/issues/theslash84/gh-repo-stats) ![Pull Requests](https://img.shields.io/github/issues-pr/theslash84/gh-repo-stats) ![Contributors](https://img.shields.io/github/contributors/theslash84/gh-repo-stats) ![Stars](https://img.shields.io/github/stars/theslash84/gh-repo-stats) ![Forks](https://img.shields.io/github/forks/theslash84/gh-repo-stats) ![Watchers](https://img.shields.io/github/watchers/theslash84/gh-repo-stats)  
  ![Code size](https://img.shields.io/github/languages/code-size/theslash84/gh-repo-stats) 
 
 
-
-
-
  
-
-
-
-
-
-
-
-
-
-
-
+# gh-repo-stats
 
 ## 🚀 Overview
 
