@@ -1,4 +1,5 @@
-# gh-repo-stats   [![Trivy Vulnerability Scan](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Last commit](https://img.shields.io/github/last-commit/theslash84/gh-repo-stats) ![Issues](https://img.shields.io/github/issues/theslash84/gh-repo-stats)
+# gh-repo-stats   [![Trivy Vulnerability Scan](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Last commit](https://img.shields.io/github/last-commit/theslash84/gh-repo-stats) ![Issues](https://img.shields.io/github/issues/theslash84/gh-repo-stats) ![Pull Requests](https://img.shields.io/github/issues-pr/theslash84/gh-repo-stats)
+
 
 
 
