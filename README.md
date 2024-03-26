@@ -1,4 +1,4 @@
-# gh-repo-stats
+# gh-repo-stats   [![Trivy Vulnerability Scan](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml)
 
 ## 🚀 Overview
 
