@@ -35,5 +35,6 @@ jobs:
 
 
 
+
     - name: Run Trivy vulnerability scan on go.mod
       run: trivy fs --exit-code 1 --no-progress --severity HIGH,CRITICAL --file go.mod
