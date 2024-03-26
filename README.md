@@ -1,4 +1,10 @@
-# gh-repo-stats   [![Trivy Vulnerability Scan](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml)
+# gh-repo-stats   [![Trivy Vulnerability Scan](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/trivy-scan.yml) [![Build Status](https://github.com/theslash84/gh-repo-stats/actions/workflows/build.yml/badge.svg)](https://github.com/theslash84/gh-repo-stats/actions/workflows/build.yml) [![Coverage Status](https://coveralls.io/repos/github/theslash84/gh-repo-stats/badge.svg?branch=main)](https://coveralls.io/github/theslash84/gh-repo-stats?branch=main) [![Code Quality](https://codeclimate.com/github/theslash84/gh-repo-stats/badges/gpa.svg)](https://codeclimate.com/github/theslash84/gh-repo-stats) [![Dependencies Status](https://github.com/theslash84/gh-repo-stats/workflows/Dependabot/badge.svg)](https://github.com/theslash84/gh-repo-stats/network/updates) [![License](https://img.shields.io/github/license/theslash84/gh-repo-stats)](LICENSE) [![Open Issues](https://img.shields.io/github/issues/theslash84/gh-repo-stats)](https://github.com/theslash84/gh-repo-stats/issues)
+
+
+
+
+
+
 
 ## 🚀 Overview
 
