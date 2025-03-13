@@ -1,6 +1,7 @@
 module github.com/theslash84/gh-repo-stats
 
 go 1.21.5
+toolchain go1.23.7
 
 require github.com/cli/go-gh v1.2.1
 
@@ -15,8 +16,8 @@ require (
 	github.com/muesli/termenv v0.12.0 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/thlib/go-timezone-local v0.0.0-20210907160436-ef149e42d28e // indirect
-	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/term v0.18.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/term v0.29.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
